@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/theylive_banner.png" alt="They Live: YouTube Glasses" width="100%">
+  <img src="assets/banner.png" alt="They Live: YouTube Glasses" width="100%">
 </p>
 
 # They Live: YouTube Glasses
