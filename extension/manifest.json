@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "They Live: YouTube Glasses",
+  "version": "0.1.0",
+  "description": "Put on the glasses: Jev reads each video title on YouTube's home, search and watch pages and stamps the persuasion tactic it uses onto the thumbnail.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.youtube.com/*", "https://api.typesafe.ai/*"],
+  "background": { "service_worker": "src/background.js", "type": "module" },
+  "action": { "default_title": "They Live glasses" },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["src/content.js"],
+      "css": ["src/content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

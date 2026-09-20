@@ -1,0 +1,518 @@
+{
+  "version": 1,
+  "families": [
+    {
+      "id": "fear",
+      "name": "FEAR",
+      "slogan": "OBEY",
+      "description": "Title tries to scare or worry the viewer: threats, danger, doom, loss, worst-case outcomes.",
+      "labels": [
+        "FEAR", "ANXIETY", "PANIC", "DREAD", "PARANOIA", "INSECURITY", "UNCERTAINTY",
+        "FEAR OF LOSS", "FEAR OF FAILURE", "FEAR OF REPLACEMENT", "FEAR OF MISSING OUT", "FEAR OF REJECTION",
+        "FEAR OF POVERTY", "FEAR OF OBSOLESCENCE", "FEAR OF CHANGE", "FEAR OF CONSEQUENCES", "FEAR OF EXCLUSION",
+        "FEAR OF EMBARRASSMENT", "FEAR OF REGRET", "FEAR OF BEING LEFT BEHIND", "FEAR OF THE UNKNOWN",
+        "THREAT FRAMING", "IMPLIED THREAT", "EXISTENTIAL THREAT", "DOOM FRAMING", "CATASTROPHIZING",
+        "WORST-CASE FRAMING", "CRISIS FRAMING", "DANGER FRAMING", "RISK AMPLIFICATION", "PANIC INDUCTION", "ALARMISM"
+      ]
+    },
+    {
+      "id": "curiosity",
+      "name": "CURIOSITY",
+      "slogan": "KEEP WATCHING",
+      "description": "Title withholds a key fact, answer or outcome so the viewer must click to find out; teasing, mystery, secrets, reveals.",
+      "labels": [
+        "CURIOSITY", "CURIOSITY GAP", "INFORMATION GAP", "OPEN LOOP", "CLIFFHANGER", "MYSTERY", "SUSPENSE", "TEASING",
+        "WITHHELD CONTEXT", "WITHHELD ANSWER", "WITHHELD OUTCOME", "DELAYED REVEAL", "VAGUE PRONOUN", "VAGUE SUBJECT",
+        "VAGUE CONSEQUENCE", "UNFINISHED CLAIM", "QUESTION BAIT", "DISBELIEF BAIT", "SURPRISE BAIT", "SECRET KNOWLEDGE",
+        "HIDDEN TRUTH", "FORBIDDEN KNOWLEDGE", "INSIDER KNOWLEDGE", "EXCLUSIVE INFORMATION", "UNKNOWN DISCOVERY",
+        "REVEAL FRAMING", "CONFESSION FRAMING", "EXPOSE FRAMING", "INVESTIGATION FRAMING",
+        "“YOU WON'T BELIEVE” FRAMING", "“WHAT HAPPENS NEXT” FRAMING", "“NOBODY KNOWS” FRAMING",
+        "“NOBODY TELLS YOU” FRAMING", "“THE TRUTH ABOUT” FRAMING", "“THE REAL REASON” FRAMING",
+        "“WHAT THEY DON'T TELL YOU” FRAMING", "“THEY DON'T WANT YOU TO KNOW” FRAMING"
+      ]
+    },
+    {
+      "id": "exaggeration",
+      "name": "EXAGGERATION",
+      "slogan": "BELIEVE THE HYPE",
+      "description": "Title inflates importance, scale, novelty or stakes: hyperbole, superlatives, world-changing or shocking claims, dramatic verbs like destroyed/killed/dead.",
+      "labels": [
+        "EXAGGERATION", "HYPERBOLE", "SENSATIONALISM", "HYPE", "OVERHYPE", "OVERPROMISE", "STAKES INFLATION",
+        "IMPORTANCE INFLATION", "IMPACT INFLATION", "NOVELTY INFLATION", "SCALE INFLATION", "DIFFICULTY INFLATION",
+        "SUCCESS INFLATION", "FAILURE INFLATION", "RISK INFLATION", "SPEED INFLATION", "CERTAINTY INFLATION",
+        "BREAKTHROUGH FRAMING", "REVOLUTIONARY CLAIM", "GAME-CHANGER CLAIM", "LIFE-CHANGING CLAIM", "WORLD-CHANGING CLAIM",
+        "HISTORIC CLAIM", "UNPRECEDENTED CLAIM", "ULTIMATE CLAIM", "BEST-EVER CLAIM", "WORST-EVER CLAIM", "IMPOSSIBLE CLAIM",
+        "MIRACLE CLAIM", "“EVERYTHING CHANGED” FRAMING", "“THIS CHANGES EVERYTHING” FRAMING", "“X IS DEAD” FRAMING",
+        "“X IS OVER” FRAMING", "“X JUST WON” FRAMING", "“X JUST LOST” FRAMING", "“X DESTROYED Y” FRAMING",
+        "“X KILLED Y” FRAMING", "“THE END OF X” FRAMING", "“BIGGEST EVER” FRAMING", "“INSANE” FRAMING",
+        "“UNBELIEVABLE” FRAMING", "“SHOCKING” FRAMING"
+      ]
+    },
+    {
+      "id": "urgency",
+      "name": "URGENCY",
+      "slogan": "HURRY",
+      "description": "Title pressures the viewer to act or watch right now: deadlines, last chance, breaking news, act-now, don't-wait.",
+      "labels": [
+        "URGENCY", "MANUFACTURED URGENCY", "TIME PRESSURE", "DEADLINE PRESSURE", "IMMEDIATE ACTION", "LAST-CHANCE FRAMING",
+        "NOW-OR-NEVER FRAMING", "COUNTDOWN", "EXPIRATION FRAMING", "BEFORE-IT'S-TOO-LATE FRAMING", "ACT-NOW FRAMING",
+        "DON'T-WAIT FRAMING", "BREAKING-NEWS URGENCY", "RAPID-CHANGE FRAMING", "WINDOW-OF-OPPORTUNITY", "EARLY-MOVER PRESSURE"
+      ]
+    },
+    {
+      "id": "scarcity",
+      "name": "SCARCITY",
+      "slogan": "BUY",
+      "description": "Title implies something is limited, rare, exclusive or invite-only.",
+      "labels": [
+        "SCARCITY", "MANUFACTURED SCARCITY", "LIMITED AVAILABILITY", "LIMITED SUPPLY", "LIMITED ACCESS", "LIMITED SEATS",
+        "LIMITED TIME", "INVITE-ONLY", "EXCLUSIVITY", "RARITY", "ARTIFICIAL EXCLUSIVITY", "VIP FRAMING",
+        "MEMBERS-ONLY FRAMING", "EARLY-ACCESS FRAMING", "INSIDER-ACCESS FRAMING"
+      ]
+    },
+    {
+      "id": "fomo",
+      "name": "FOMO / TREND PRESSURE",
+      "slogan": "CONFORM",
+      "description": "Title suggests everyone is doing, using or talking about something and the viewer will be left behind; trends, bandwagon, hijacking a news moment.",
+      "labels": [
+        "FOMO", "TREND PRESSURE", "BANDWAGON", "POPULARITY APPEAL", "VIRALITY APPEAL", "MASS-ADOPTION CLAIM",
+        "EVERYONE-IS-DOING-IT", "EVERYONE-IS-TALKING-ABOUT-IT", "DON'T-GET-LEFT-BEHIND", "EARLY-ADOPTER APPEAL",
+        "LATE-ADOPTER SHAMING", "TREND HIJACKING", "NEWSJACKING", "CULTURAL MOMENT HIJACKING"
+      ]
+    },
+    {
+      "id": "authority",
+      "name": "AUTHORITY",
+      "slogan": "DO NOT QUESTION AUTHORITY",
+      "description": "Title leans on experts, celebrities, institutions, credentials or famous names to seem credible.",
+      "labels": [
+        "AUTHORITY", "APPEAL TO AUTHORITY", "BORROWED AUTHORITY", "CREDIBILITY BORROWING", "EXPERT ENDORSEMENT",
+        "CELEBRITY ENDORSEMENT", "INFLUENCER ENDORSEMENT", "INSTITUTIONAL AUTHORITY", "SCIENTIFIC AUTHORITY",
+        "PROFESSIONAL AUTHORITY", "STATUS AUTHORITY", "FOUNDER AUTHORITY", "BILLIONAIRE AUTHORITY", "EXECUTIVE AUTHORITY",
+        "ACADEMIC AUTHORITY", "GOVERNMENT AUTHORITY", "MEDIA AUTHORITY", "UNNAMED EXPERTS", "VAGUE AUTHORITY",
+        "CREDENTIAL SIGNALING", "EXPERT CONSENSUS CLAIM", "IMPLIED EXPERTISE", "IMPLIED INSIDER ACCESS", "NAME-DROPPING",
+        "CELEBRITY NAME-DROP", "BRAND NAME-DROP", "INSTITUTION NAME-DROP"
+      ]
+    },
+    {
+      "id": "certainty",
+      "name": "CERTAINTY",
+      "slogan": "NO DOUBT",
+      "description": "Title states something with unjustified certainty: absolutes, guarantees, predictions or opinions presented as fact.",
+      "labels": [
+        "CERTAINTY", "FALSE CERTAINTY", "MISLEADING CERTAINTY", "OVERCONFIDENCE", "ABSOLUTE CLAIM", "UNQUALIFIED CLAIM",
+        "UNIVERSAL CLAIM", "INEVITABILITY CLAIM", "GUARANTEE", "FALSE GUARANTEE", "PREDICTION AS FACT", "SPECULATION AS FACT",
+        "OPINION AS FACT", "ASSUMPTION AS FACT", "RUMOR AS FACT", "EARLY EVIDENCE AS CONCLUSION", "CORRELATION AS CAUSATION",
+        "ANECDOTE AS PROOF", "SINGLE STUDY AS CONSENSUS", "LACK OF HEDGING", "FALSE PRECISION"
+      ]
+    },
+    {
+      "id": "misleading-framing",
+      "name": "MISLEADING FRAMING",
+      "slogan": "STAY ASLEEP",
+      "description": "Title frames facts in a slanted way: omitting context or caveats, unfair comparisons, misleading statistics, oversimplifying, false balance.",
+      "labels": [
+        "MISLEADING FRAMING", "SELECTIVE FRAMING", "CONTEXT OMISSION", "MATERIAL OMISSION", "WITHHELD CAVEAT",
+        "WITHHELD LIMITATION", "WITHHELD COMPARISON", "WITHHELD SOURCE", "MISLEADING COMPARISON", "UNFAIR COMPARISON",
+        "STATISTICAL FRAMING", "ANECDOTAL EVIDENCE", "MISLEADING PERCENTAGE", "RELATIVE-RISK FRAMING", "FALSE BALANCE",
+        "FALSE EQUIVALENCE", "CAUSAL OVERREACH", "OVERSIMPLIFICATION", "REDUCTIONISM"
+      ]
+    },
+    {
+      "id": "vague-claim",
+      "name": "VAGUE CLAIM",
+      "slogan": "NO INDEPENDENT THOUGHT",
+      "description": "Title makes claims that are vague, unverifiable or hand-wavy: weasel words, empty superlatives, insinuation, vague enemies or promises.",
+      "labels": [
+        "VAGUE CLAIM", "AMBIGUOUS CLAIM", "UNFALSIFIABLE CLAIM", "UNSUBSTANTIATED CLAIM", "UNVERIFIABLE CLAIM",
+        "HAND-WAVY CLAIM", "WEASEL WORDS", "EMPTY SUPERLATIVE", "EMPTY COMPARATIVE", "VAGUE QUANTIFIER", "VAGUE SOURCE",
+        "VAGUE CONSENSUS", "VAGUE ENEMY", "VAGUE THREAT", "VAGUE PROMISE", "IMPLIED CLAIM", "INSINUATION",
+        "SUGGESTIVE FRAMING", "PLAUSIBLE DENIABILITY"
+      ]
+    },
+    {
+      "id": "fallacies",
+      "name": "FALSE DICHOTOMY / FALLACIES",
+      "slogan": "NO CRITICAL THINKING",
+      "description": "Title relies on a logical fallacy or rhetorical trick: false dichotomy, straw man, slippery slope, whataboutism, loaded question.",
+      "labels": [
+        "FALSE DICHOTOMY", "BLACK-AND-WHITE FRAMING", "BINARY FRAMING", "ZERO-SUM FRAMING", "SLIPPERY SLOPE", "STRAW MAN",
+        "RED HERRING", "MOVING THE GOALPOSTS", "WHATABOUTISM", "CIRCULAR REASONING", "HASTY GENERALIZATION", "FAULTY ANALOGY",
+        "APPEAL TO IGNORANCE", "APPEAL TO NATURE", "APPEAL TO TRADITION", "APPEAL TO NOVELTY", "SUNK-COST APPEAL",
+        "FALSE CAUSE", "POST-HOC REASONING", "MOTTE-AND-BAILEY", "LOADED QUESTION"
+      ]
+    },
+    {
+      "id": "anger",
+      "name": "ANGER",
+      "slogan": "RAGE",
+      "description": "Title tries to make the viewer angry or outraged, or is itself hostile: rage bait, drama, mockery, shaming, callouts, dunking.",
+      "labels": [
+        "ANGER", "ANGER BAIT", "RAGEBAIT", "OUTRAGE", "OUTRAGE BAIT", "MORAL OUTRAGE", "INDIGNATION", "RESENTMENT",
+        "FRUSTRATION", "PROVOCATION", "ANTAGONISM", "CONFLICT BAIT", "DRAMA BAIT", "CONTROVERSY BAIT", "HOSTILITY",
+        "PERSONAL ATTACK", "MOCKERY", "RIDICULE", "HUMILIATION", "PUBLIC SHAMING", "CALLOUT BAIT", "DUNKING", "PILE-ON BAIT",
+        "SCHADENFREUDE", "REVENGE APPEAL", "VINDICATION APPEAL"
+      ]
+    },
+    {
+      "id": "polarization",
+      "name": "POLARIZATION",
+      "slogan": "PICK A SIDE",
+      "description": "Title divides people into us versus them: tribalism, enemies, scapegoats, identity threats, conspiracy, persecution.",
+      "labels": [
+        "POLARIZATION", "TRIBALISM", "US-VS-THEM", "IN-GROUP APPEAL", "OUT-GROUP ATTACK", "OTHERING", "ENEMY FRAMING",
+        "SCAPEGOATING", "VILLAINIZATION", "DEHUMANIZING FRAMING", "LOYALTY TEST", "PURITY TEST", "SIDE-TAKING PRESSURE",
+        "IDENTITY THREAT", "IDENTITY VALIDATION", "IDENTITY APPEAL", "GROUP SUPERIORITY", "GROUP VICTIMHOOD",
+        "PERSECUTION FRAMING", "SIEGE MENTALITY", "CONSPIRACY FRAMING"
+      ]
+    },
+    {
+      "id": "emotional-appeal",
+      "name": "EMOTIONAL APPEAL",
+      "slogan": "FEEL",
+      "description": "Title aims mainly at a non-hostile, non-fear emotion: guilt, pity, hope, nostalgia, awe, envy, belonging, love, reassurance.",
+      "labels": [
+        "EMOTIONAL APPEAL", "EMOTIONAL AMPLIFICATION", "EMOTIONAL REASONING", "GUILT", "GUILT TRIP", "SHAME", "SHAME APPEAL",
+        "PITY", "SYMPATHY APPEAL", "EMPATHY APPEAL", "HOPE", "HOPE BAIT", "INSPIRATION", "ASPIRATION", "NOSTALGIA",
+        "SENTIMENTALITY", "PRIDE", "ENVY", "JEALOUSY", "DISGUST", "SHOCK", "SURPRISE", "AWE", "EXCITEMENT", "RELIEF",
+        "VALIDATION", "REASSURANCE", "BELONGING", "LONELINESS APPEAL", "LOVE APPEAL", "FAMILY APPEAL", "PROTECTIVENESS APPEAL"
+      ]
+    },
+    {
+      "id": "status-appeal",
+      "name": "STATUS APPEAL",
+      "slogan": "CONSUME",
+      "description": "Title sells prestige, wealth, success, beauty, power or a desirable identity, or triggers status comparison.",
+      "labels": [
+        "STATUS APPEAL", "PRESTIGE APPEAL", "WEALTH APPEAL", "LUXURY APPEAL", "SUCCESS APPEAL", "POWER APPEAL",
+        "DOMINANCE APPEAL", "COMPETENCE APPEAL", "INTELLIGENCE APPEAL", "PRODUCTIVITY APPEAL", "BEAUTY APPEAL",
+        "FITNESS APPEAL", "YOUTH APPEAL", "DESIRABILITY APPEAL", "ASPIRATIONAL IDENTITY", "STATUS ANXIETY",
+        "SOCIAL COMPARISON", "UPWARD COMPARISON", "NEGATIVE COMPARISON", "INFERIORITY FRAMING", "SUPERIORITY FRAMING",
+        "ELITE IDENTITY", "REBEL IDENTITY", "OUTSIDER IDENTITY", "SMART-PERSON IDENTITY", "SUCCESSFUL-PERSON IDENTITY"
+      ]
+    },
+    {
+      "id": "greed",
+      "name": "GREED",
+      "slogan": "WORSHIP MONEY",
+      "description": "Title promises money, profit or financial freedom, or uses pricing psychology: get-rich-quick, passive income, bargains, discounts, free bonuses.",
+      "labels": [
+        "GREED", "FINANCIAL ASPIRATION", "GET-RICH-QUICK", "EASY-MONEY PROMISE", "PASSIVE-INCOME PROMISE", "OVERNIGHT-SUCCESS",
+        "WEALTH TRANSFORMATION", "FINANCIAL FREEDOM PROMISE", "MONEY HACK", "PROFIT PROMISE", "RETURN INFLATION",
+        "LOW-RISK-HIGH-REWARD", "LOSS AVERSION", "SUNK-COST PRESSURE", "BARGAIN FRAMING", "DISCOUNT FRAMING",
+        "ANCHOR PRICING", "PRICE COMPARISON", "FREE FRAMING", "BONUS STACKING"
+      ]
+    },
+    {
+      "id": "easy-solution",
+      "name": "EASY-SOLUTION PROMISE",
+      "slogan": "NO EFFORT REQUIRED",
+      "description": "Title promises a fast, easy or secret way to get a result: quick fixes, one-trick solutions, hacks, formulas, transformations.",
+      "labels": [
+        "EASY-SOLUTION PROMISE", "QUICK-FIX PROMISE", "INSTANT RESULTS", "EFFORTLESS RESULTS", "ONE-TRICK SOLUTION",
+        "ONE-STEP SOLUTION", "SECRET HACK", "LIFE HACK", "SHORTCUT PROMISE", "MAGIC-BULLET CLAIM", "UNIVERSAL SOLUTION",
+        "GUARANTEED METHOD", "PROVEN FORMULA", "SECRET FORMULA", "HIDDEN METHOD", "EXPERT SECRET", "TRANSFORMATION PROMISE",
+        "BEFORE-AND-AFTER FRAMING", "ZERO-TO-HERO FRAMING", "FAILURE-TO-SUCCESS STORY"
+      ]
+    },
+    {
+      "id": "direct-command",
+      "name": "DIRECT COMMAND",
+      "slogan": "SUBMIT",
+      "description": "Title tells the viewer what to do or uses behavioral-economics nudges: commands, calls to action, commitment, reciprocity, anchoring, loss or gain framing.",
+      "labels": [
+        "DIRECT COMMAND", "CALL TO ACTION", "IMPERATIVE FRAMING", "BEHAVIORAL NUDGE", "IMPLIED COMMAND", "SOCIAL PRESSURE",
+        "COMPLIANCE PRESSURE", "OBEDIENCE APPEAL", "RECIPROCITY", "COMMITMENT PRESSURE", "CONSISTENCY PRESSURE",
+        "FOOT-IN-THE-DOOR", "DOOR-IN-THE-FACE", "DEFAULT EFFECT", "CHOICE ARCHITECTURE", "ANCHORING", "FRAMING EFFECT",
+        "DECOY EFFECT", "LOSS FRAMING", "GAIN FRAMING", "ENDOWMENT EFFECT", "OWNERSHIP FRAMING"
+      ]
+    },
+    {
+      "id": "clickbait",
+      "name": "CLICKBAIT / ENGAGEMENT BAIT",
+      "slogan": "CLICK",
+      "description": "Title or wording exists mainly to farm engagement: asks for likes, comments, shares or subscribes, or hooks the viewer to keep watching, watch till the end or watch a series.",
+      "labels": [
+        "CLICKBAIT", "ENGAGEMENT BAIT", "COMMENT BAIT", "LIKE BAIT", "SHARE BAIT", "SUBSCRIBE BAIT", "FOLLOW BAIT",
+        "REACTION BAIT", "QUOTE-TWEET BAIT", "ARGUMENT BAIT", "POLL BAIT", "CHALLENGE BAIT", "TAG-A-FRIEND BAIT",
+        "RETENTION BAIT", "WATCH-TILL-THE-END", "LOOP BAIT", "REPLAY BAIT", "SERIES BAIT", "PART-TWO BAIT"
+      ]
+    },
+    {
+      "id": "personalization",
+      "name": "PERSONALIZATION",
+      "slogan": "PAY ATTENTION",
+      "description": "Title speaks directly to the viewer with 'you': direct address, personal warnings, promises or challenges, you're-doing-it-wrong, stop-doing-X.",
+      "labels": [
+        "PERSONALIZATION", "DIRECT ADDRESS", "SECOND-PERSON FRAMING", "PERSONAL CHALLENGE", "PERSONAL WARNING",
+        "PERSONAL PROMISE", "“YOU NEED THIS” FRAMING", "“YOU'RE DOING IT WRONG” FRAMING", "“YOU'VE BEEN LIED TO” FRAMING",
+        "“YOU'RE MISSING OUT” FRAMING", "“THIS IS WHY YOU FAIL” FRAMING", "“STOP DOING X” FRAMING", "“DO THIS INSTEAD” FRAMING",
+        "“IF YOU ARE X, WATCH THIS” FRAMING"
+      ]
+    },
+    {
+      "id": "contrarian",
+      "name": "CONTRARIAN BAIT",
+      "slogan": "DOUBT EVERYONE ELSE",
+      "description": "Title sets itself against the mainstream or experts: hot takes, unpopular opinions, myth-busting, cover-ups, suppressed truth, censorship.",
+      "labels": [
+        "CONTRARIAN BAIT", "HOT TAKE", "UNPOPULAR OPINION", "ANTI-CONSENSUS FRAMING", "MYTH-BUSTING", "DEBUNKING FRAMING",
+        "CORRECTION BAIT", "EVERYONE-IS-WRONG", "EXPERTS-ARE-WRONG", "MAINSTREAM-IS-WRONG", "HIDDEN-AGENDA FRAMING",
+        "COVER-UP FRAMING", "SUPPRESSED-TRUTH FRAMING", "CENSORSHIP FRAMING", "CONSPIRACY SUGGESTION"
+      ]
+    },
+    {
+      "id": "social-proof",
+      "name": "SOCIAL PROOF",
+      "slogan": "FOLLOW THE HERD",
+      "description": "Title points to numbers, testimonials, ratings, case studies or other people's use or adoption as evidence.",
+      "labels": [
+        "SOCIAL PROOF", "TESTIMONIAL", "USER COUNT", "CUSTOMER COUNT", "RATING SIGNAL", "REVIEW SIGNAL", "CASE STUDY",
+        "SUCCESS STORY", "CELEBRITY USAGE", "EXPERT USAGE", "PEER USAGE", "COMMUNITY ADOPTION", "IMPLIED CONSENSUS",
+        "MAJORITY APPEAL", "BANDWAGON PRESSURE", "POPULARITY SIGNALING", "VIRALITY SIGNALING"
+      ]
+    },
+    {
+      "id": "trust-signaling",
+      "name": "TRUST SIGNALING",
+      "slogan": "TRUST ME",
+      "description": "Title performs honesty, authenticity or friendship to earn trust: no-BS, brutally honest, behind-the-scenes, vulnerability, personal stories.",
+      "labels": [
+        "TRUST SIGNALING", "CREDIBILITY SIGNALING", "AUTHENTICITY SIGNALING", "TRANSPARENCY SIGNALING", "RELATABILITY",
+        "VULNERABILITY", "CONFESSION", "PERSONAL STORY", "FOUNDER STORY", "BEHIND-THE-SCENES", "UNFILTERED CLAIM",
+        "RAW/AUTHENTIC FRAMING", "“NO BS” FRAMING", "“BRUTALLY HONEST” FRAMING", "“MY HONEST OPINION” FRAMING",
+        "ANTI-MARKETING MARKETING", "SELF-DEPRECATION", "PARASOCIAL APPEAL", "FRIENDSHIP SIMULATION", "COMMUNITY BELONGING"
+      ]
+    },
+    {
+      "id": "body-anxiety",
+      "name": "SEX APPEAL / LIFE ANXIETIES",
+      "slogan": "FEEL INADEQUATE",
+      "description": "Title uses attraction, romance or body image, or plays on a specific life anxiety: aging, health, fitness, career, money, relationships, parenting.",
+      "labels": [
+        "SEX APPEAL", "ROMANTIC APPEAL", "ATTRACTIVENESS BAIT", "BODY IMAGE APPEAL", "BEAUTY ANXIETY", "AGING ANXIETY",
+        "HEALTH ANXIETY", "FITNESS ANXIETY", "PRODUCTIVITY ANXIETY", "CAREER ANXIETY", "FINANCIAL ANXIETY",
+        "RELATIONSHIP ANXIETY", "PARENTING ANXIETY", "SOCIAL ANXIETY", "TECHNOLOGY ANXIETY"
+      ]
+    },
+    {
+      "id": "humor-spectacle",
+      "name": "CUTE / HUMOR / SPECTACLE",
+      "slogan": "WATCH TV",
+      "description": "Title sells entertainment value: cute, funny, absurd, cringe, chaotic or spectacular content, disasters, and aspirational 'porn' (wealth, luxury, productivity, tech).",
+      "labels": [
+        "CUTE APPEAL", "HUMOR", "HUMOR BAIT", "MEME BAIT", "ABSURDITY", "CRINGE BAIT", "SECONDHAND EMBARRASSMENT",
+        "CHAOS FRAMING", "SPECTACLE", "DISASTER SPECTACLE", "FAILURE PORN", "SUCCESS PORN", "WEALTH PORN", "LUXURY PORN",
+        "PRODUCTIVITY PORN", "TECHNOLOGY PORN"
+      ]
+    },
+    {
+      "id": "novelty",
+      "name": "NOVELTY",
+      "slogan": "WANT THE NEW",
+      "description": "Title sells something new, first, leaked or experimental: scoops, breaking news, extreme tests, challenges, stunts, 'I tried X' or 'I spent X' formats.",
+      "labels": [
+        "NOVELTY", "NEWNESS APPEAL", "FIRST-EVER CLAIM", "EARLY ACCESS", "EXCLUSIVE PREVIEW", "LEAK", "RUMOR", "SCOOP",
+        "BREAKING NEWS", "DISCOVERY", "EXPERIMENT", "EXTREME TEST", "CHALLENGE", "STUNT", "RECORD ATTEMPT", "COMPARISON TEST",
+        "“WE TRIED X” FRAMING", "“I TESTED X” FRAMING", "“I SPENT X” FRAMING", "“I DID X FOR 30 DAYS” FRAMING"
+      ]
+    },
+    {
+      "id": "brand-war",
+      "name": "BRAND WAR / CONFLICT",
+      "slogan": "PICK A BRAND",
+      "description": "Title stages a rivalry: product versus product, platform or brand wars, generational, gender, class, culture or profession conflict.",
+      "labels": [
+        "BRAND WAR", "PRODUCT WAR", "VERSUS FRAMING", "WINNER-TAKES-ALL", "COMPETITOR ATTACK", "COMPETITOR RIDICULE",
+        "BRAND LOYALTY", "FANBOY BAIT", "PLATFORM WAR", "GENERATION WAR", "CULTURE WAR", "CLASS CONFLICT", "AGE CONFLICT",
+        "GENDER CONFLICT", "PROFESSION CONFLICT"
+      ]
+    },
+    {
+      "id": "negativity-bias",
+      "name": "NEGATIVITY BIAS",
+      "slogan": "DESPAIR",
+      "description": "Title dwells on bad news, failure, scandal, betrayal, corruption, downfall, collapse or backlash.",
+      "labels": [
+        "NEGATIVITY BIAS", "BAD-NEWS AMPLIFICATION", "FAILURE EMPHASIS", "THREAT EMPHASIS", "SCANDAL FRAMING", "BETRAYAL FRAMING",
+        "CORRUPTION FRAMING", "HYPOCRISY FRAMING", "DOWNFALL FRAMING", "COLLAPSE FRAMING", "DISASTER FRAMING",
+        "BACKLASH FRAMING", "BOYCOTT FRAMING", "CANCELLATION FRAMING"
+      ]
+    },
+    {
+      "id": "spin-promo",
+      "name": "POSITIVE SPIN / PROMOTION",
+      "slogan": "SMILE AND BUY",
+      "description": "Title spins an image or sells something: PR, reputation management, ads disguised as content, sales pitches, upsells, self or cross promotion.",
+      "labels": [
+        "POSITIVE SPIN", "NEGATIVE SPIN", "REPUTATION MANAGEMENT", "IMAGE REHABILITATION", "CORPORATE SPIN", "PR FRAMING",
+        "ADVERTISEMENT DISGUISED AS CONTENT", "NATIVE ADVERTISING", "SELF-PROMOTION", "CROSS-PROMOTION", "LEAD GENERATION",
+        "SALES PITCH", "UPSELL", "CROSS-SELL"
+      ]
+    },
+    {
+      "id": "manufactured",
+      "name": "FALSE CONSENSUS / MANUFACTURED",
+      "slogan": "ACCEPT IT",
+      "description": "Title suggests consensus, popularity, controversy, outrage, demand or mystery that looks staged or manufactured rather than real.",
+      "labels": [
+        "FALSE CONSENSUS", "FALSE POPULARITY", "MANUFACTURED CONTROVERSY", "MANUFACTURED CONFLICT", "MANUFACTURED OUTRAGE",
+        "MANUFACTURED CONSENSUS", "MANUFACTURED DEMAND", "MANUFACTURED MYSTERY"
+      ]
+    },
+    {
+      "id": "source-laundering",
+      "name": "SOURCE LAUNDERING",
+      "slogan": "DON'T CHECK",
+      "description": "Title distorts where a claim comes from or what someone said: laundered claims, quote mining, distorted headlines, misattribution, out-of-context quotes.",
+      "labels": [
+        "SOURCE LAUNDERING", "CLAIM LAUNDERING", "QUOTE MINING", "HEADLINE DISTORTION", "MISLEADING IMPLICATION",
+        "MISLEADING ATTRIBUTION", "OUT-OF-CONTEXT QUOTE"
+      ]
+    },
+    {
+      "id": "false-expertise",
+      "name": "FALSE EXPERTISE / WASHING",
+      "slogan": "TRUST THE EXPERT",
+      "description": "Title fakes or inflates expertise, or borrows the prestige of science, tech, AI, green or health language to seem legitimate.",
+      "labels": [
+        "FALSE EXPERTISE", "FAKE AUTHORITY", "CREDENTIAL INFLATION", "STATUS BORROWING", "ASSOCIATION FALLACY",
+        "PRESTIGE BORROWING", "BRAND BORROWING", "SCIENCE-WASHING", "TECH-WASHING", "AI-WASHING", "GREENWASHING",
+        "ETHICS-WASHING", "HEALTH-WASHING"
+      ]
+    },
+    {
+      "id": "confirmation-bait",
+      "name": "CONFIRMATION BAIT",
+      "slogan": "STAY COMFORTABLE",
+      "description": "Title flatters what the viewer already believes: belief or worldview validation, reinforcing biases and stereotypes, echo chamber appeal, victimhood or superiority validation.",
+      "labels": [
+        "CONFIRMATION BAIT", "BELIEF VALIDATION", "WORLDVIEW VALIDATION", "BIAS REINFORCEMENT", "PREJUDICE REINFORCEMENT",
+        "STEREOTYPE REINFORCEMENT", "ECHO-CHAMBER APPEAL", "MOTIVATED REASONING APPEAL", "SELECTIVE VALIDATION",
+        "MORAL VALIDATION", "VICTIMHOOD VALIDATION", "SUPERIORITY VALIDATION"
+      ]
+    },
+    {
+      "id": "neutral",
+      "name": "NEUTRAL / INFORMATIONAL",
+      "slogan": null,
+      "description": "Title plainly describes the content with no notable persuasion tactic: educational, news, review, tutorial, documentary, commentary, plain entertainment or personal experience.",
+      "labels": [
+        "EDUCATIONAL", "DESCRIPTIVE", "ANALYTICAL", "OPINION", "REVIEW", "COMMENTARY", "SATIRE", "PARODY", "ENTERTAINMENT",
+        "PERSONAL EXPERIENCE", "NEWS REPORT", "TUTORIAL", "DOCUMENTARY", "PROMOTIONAL", "UNCERTAIN", "MIXED", "OTHER",
+        "INSUFFICIENT CONTEXT"
+      ]
+    }
+  ],
+  "descriptions": {
+    "CURIOSITY GAP": "Teases something interesting but omits the key fact, so the viewer must click to learn it.",
+    "INFORMATION GAP": "Signals that the video contains information the viewer lacks, without saying what it is.",
+    "OPEN LOOP": "Starts a story or claim in the title and leaves it unresolved.",
+    "CLIFFHANGER": "Ends on a dramatic, unresolved moment.",
+    "WITHHELD ANSWER": "Poses or implies a question and hides its answer.",
+    "WITHHELD OUTCOME": "Describes an event or attempt but hides how it turned out.",
+    "VAGUE PRONOUN": "Uses 'this', 'it', 'he', 'she' or 'they' without saying who or what.",
+    "VAGUE SUBJECT": "Never names the actual subject of the video.",
+    "QUESTION BAIT": "The title is a provocative question designed to be answered by clicking.",
+    "SECRET KNOWLEDGE": "Promises knowledge that supposedly only a few people have.",
+    "FORBIDDEN KNOWLEDGE": "Promises knowledge that is supposedly banned, hidden or dangerous to know.",
+    "INSIDER KNOWLEDGE": "Promises knowledge from someone who worked inside an industry or organization.",
+    "EXPOSE FRAMING": "Presents the video as uncovering wrongdoing or something hidden.",
+    "HYPERBOLE": "Extreme overstatement that is obviously not literally true.",
+    "SENSATIONALISM": "Presents ordinary events in a shocking or lurid way.",
+    "OVERHYPE": "Builds excessive excitement around something that is unlikely to live up to it.",
+    "OVERPROMISE": "Promises a result or payoff the content is unlikely to deliver.",
+    "STAKES INFLATION": "Makes what is at stake sound far bigger than it is.",
+    "“X IS DEAD” FRAMING": "Declares something is dead, finished or obsolete.",
+    "“X DESTROYED Y” FRAMING": "Uses destroyed, obliterated, humiliated or similar violent verbs for a mild outcome.",
+    "MANUFACTURED URGENCY": "Creates a false need to act or watch right now.",
+    "MANUFACTURED SCARCITY": "Suggests something is running out or limited when it is not.",
+    "BREAKING-NEWS URGENCY": "Uses 'breaking' or 'just happened' language to force immediate attention.",
+    "EARLY-MOVER PRESSURE": "Says people who act first will win and latecomers will lose.",
+    "EXCLUSIVITY": "Frames the content or product as available only to a select few.",
+    "TREND HIJACKING": "Attaches an unrelated video to a popular trend to borrow attention.",
+    "NEWSJACKING": "Attaches an unrelated video to a current news story to borrow attention.",
+    "NAME-DROPPING": "Mentions famous people or brands only to borrow their credibility or attention.",
+    "UNNAMED EXPERTS": "Cites 'experts', 'scientists' or 'doctors' without naming any.",
+    "CREDENTIAL SIGNALING": "Flaunts the creator's or guest's titles and degrees to justify a claim.",
+    "PREDICTION AS FACT": "States a prediction about the future as if it were settled.",
+    "OPINION AS FACT": "States an opinion as an objective truth.",
+    "CORRELATION AS CAUSATION": "Claims one thing causes another based only on them occurring together.",
+    "ABSOLUTE CLAIM": "Uses always, never, everyone, nobody or only, with no exceptions.",
+    "CONTEXT OMISSION": "Presents a fact while leaving out context that changes its meaning.",
+    "OVERSIMPLIFICATION": "Reduces a complicated issue to a single simple cause or answer.",
+    "WEASEL WORDS": "Uses phrases like 'some say' or 'reportedly' to avoid accountability.",
+    "INSINUATION": "Suggests something damaging without stating it.",
+    "STRAW MAN": "Attacks a weaker or distorted version of an opponent's position.",
+    "LOADED QUESTION": "Asks a question that presumes something unproven or damaging.",
+    "RAGEBAIT": "Deliberately provokes anger so the viewer clicks, argues or shares.",
+    "OUTRAGE BAIT": "Presents an event as an outrage the viewer is meant to react to.",
+    "DRAMA BAIT": "Promotes interpersonal conflict, feuds or gossip.",
+    "CALLOUT BAIT": "Names and criticizes a specific person or group in public.",
+    "DUNKING": "Mocks or humiliates someone for a mistake or bad take.",
+    "US-VS-THEM": "Splits the world into our group and an opposing group.",
+    "SCAPEGOATING": "Blames a specific group or person for a broader problem.",
+    "IDENTITY APPEAL": "Speaks to the viewer's identity (nation, religion, generation, profession) to get attention.",
+    "CONSPIRACY FRAMING": "Explains events as the result of a secret coordinated plot.",
+    "HOPE BAIT": "Offers a hopeful promise that is unlikely to come true.",
+    "GET-RICH-QUICK": "Promises large money in a short time with little effort.",
+    "PASSIVE-INCOME PROMISE": "Promises money that arrives without ongoing work.",
+    "LOSS AVERSION": "Frames what the viewer stands to lose rather than gain.",
+    "SECRET FORMULA": "Promises a secret step-by-step method that guarantees success.",
+    "LIFE HACK": "Promotes a clever trick that supposedly makes a task effortless.",
+    "TRANSFORMATION PROMISE": "Promises a dramatic personal change (body, income, skills, life).",
+    "CALL TO ACTION": "Explicitly tells the viewer to do something (buy, sign up, click, share).",
+    "IMPERATIVE FRAMING": "The title is phrased as a command ('Watch this', 'Stop doing that').",
+    "COMMENT BAIT": "Asks or dares viewers to comment.",
+    "WATCH-TILL-THE-END": "Promises something at the end of the video to keep viewers watching.",
+    "SERIES BAIT": "Signals a series or part number to hook viewers into more.",
+    "DIRECT ADDRESS": "Speaks directly to the viewer using 'you'.",
+    "HOT TAKE": "A deliberately provocative opinion meant to start arguments.",
+    "MYTH-BUSTING": "Claims to correct a widely held belief.",
+    "COVER-UP FRAMING": "Claims something is being covered up or hidden from the public.",
+    "TESTIMONIAL": "Uses a personal endorsement or first-hand recommendation as proof.",
+    "CASE STUDY": "Presents one example or experiment as evidence that a method works.",
+    "SUCCESS STORY": "Tells of someone succeeding to imply the viewer can too.",
+    "USER COUNT": "Cites how many people use or follow something.",
+    "PARASOCIAL APPEAL": "Presents the creator as the viewer's close friend.",
+    "“NO BS” FRAMING": "Claims to be straightforward and unlike other, dishonest sources.",
+    "VULNERABILITY": "Shares a personal struggle or emotion to build closeness.",
+    "SPECTACLE": "Sells visual or dramatic spectacle rather than information.",
+    "EXTREME TEST": "Pushes something to absurd limits as a test.",
+    "STUNT": "A risky or outlandish stunt done for attention.",
+    "CHALLENGE": "A formal or viral challenge someone completes.",
+    "VERSUS FRAMING": "Frames two things or people as opponents in a match.",
+    "SCANDAL FRAMING": "Frames a story as a scandal.",
+    "COLLAPSE FRAMING": "Frames a company, person or system as falling apart.",
+    "PR FRAMING": "Reads like a press release polishing an image.",
+    "SALES PITCH": "Directly pitches a product, course or service.",
+    "ADVERTISEMENT DISGUISED AS CONTENT": "An ad that is presented as ordinary content.",
+    "MANUFACTURED CONTROVERSY": "Stirs up a dispute where none really exists.",
+    "MANUFACTURED MYSTERY": "Makes something mundane sound mysterious.",
+    "QUOTE MINING": "Pulls a short quote to make someone say something they did not mean.",
+    "HEADLINE DISTORTION": "The title says something different from what its subject actually said or did.",
+    "SCIENCE-WASHING": "Uses scientific-sounding language to make a weak claim look proven.",
+    "AI-WASHING": "Uses AI buzzwords to make something sound more advanced than it is.",
+    "BELIEF VALIDATION": "Tells viewers that what they already believe is right.",
+    "ECHO-CHAMBER APPEAL": "Targets one community's shared beliefs without challenging them.",
+    "EDUCATIONAL": "Plainly teaches or explains a topic.",
+    "TUTORIAL": "A how-to guide with no exaggerated promises.",
+    "NEWS REPORT": "A straightforward report of events.",
+    "REVIEW": "A straightforward evaluation of a product or work.",
+    "UNCERTAIN": "The title is too ambiguous to tell.",
+    "INSUFFICIENT CONTEXT": "Too short or cryptic to judge (for example a bare name or a single word)."
+  },
+  "deferred": {
+    "reason": "Cannot be judged from a title and channel name alone; revisit if later versions read thumbnails, transcripts or page metadata.",
+    "labels": [
+      "VIEW COUNT", "LIKE COUNT", "MISLEADING GRAPH", "BASE-RATE NEGLECT", "DENOMINATOR NEGLECT", "SURVIVORSHIP BIAS",
+      "SELECTION BIAS", "SAMPLE-SIZE NEGLECT", "CHERRY PICKING", "SELECTIVE EVIDENCE", "SELECTIVE STATISTICS",
+      "UNREPRESENTATIVE EXAMPLE", "CONTEXT COLLAPSE", "TEMPORAL CONTEXT OMISSION", "ATTRIBUTION ERROR", "WITHHELD BASE RATE",
+      "HEADLINE-BODY MISMATCH", "THUMBNAIL-TITLE MISMATCH", "TITLE-CONTENT MISMATCH", "BAIT-AND-SWITCH", "MISLEADING PREVIEW",
+      "MISLEADING CROPPING", "OUT-OF-CONTEXT CLIP", "OUTDATED INFORMATION", "OLD-CONTENT-AS-NEW", "RECYCLED CONTROVERSY",
+      "SPONSORED CONTENT OBSCURATION", "AFFILIATE INCENTIVE", "CONFLICT OF INTEREST", "PRODUCT PLACEMENT",
+      "ASTROTURFING SIGNAL", "FAKE GRASSROOTS FRAMING", "EXPOSÉ FRAMING"
+    ]
+  }
+}
